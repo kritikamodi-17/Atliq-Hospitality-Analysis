@@ -48,15 +48,15 @@ You are a data analyst who has been provided with sample data and a mock-up dash
 
 ##  📁 Folder Structure
 AtliQ-Hospitality-Analysis/
+
+├── 📊 Dashboard.pbix                   # Final Power BI dashboard file
+├── 📝 README.md                        # Project documentation
+├── 🖼️ data_model.png                   # Visual representation of the data model
 │
-├── 📊 Dashboard.pbix                   
-├── 📝 README.md                       
-├── 🖼️ data_model.png                   
-│
-├── 📂 Data Files/
-│   ├── dim_date.csv                   # Dimension table for date-related data
-│   ├── dim_hotels.csv                 # Dimension table for hotel information
-│   ├── dim_rooms.csv                  # Dimension table for room details
-│   ├── fact_aggregated_bookings.csv   # Fact table containing summarized bookings
-│   └── fact_bookings.csv              # Fact table with individual booking records
+└── 📂 Data Files/
+    ├── dim_date.csv                   # Dimension table for date-related data
+    ├── dim_hotels.csv                 # Dimension table for hotel information
+    ├── dim_rooms.csv                  # Dimension table for room details
+    ├── fact_aggregated_bookings.csv  # Fact table containing summarized bookings
+    └── fact_bookings.csv             # Fact table with individual booking records
 
