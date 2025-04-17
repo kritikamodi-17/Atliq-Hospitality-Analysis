@@ -44,19 +44,4 @@ You are a data analyst who has been provided with sample data and a mock-up dash
 - 💸 AtliQ **lost around ₹298 Million due to cancellations**
 - 🏷️ **Elite type rooms** have the **most bookings**, but also a **higher cancellation rate**
 
----
-
-##  📁 Folder Structure
-AtliQ-Hospitality-Analysis/
-
-├── 📊 Dashboard.pbix                   # Final Power BI dashboard file
-├── 📝 README.md                        # Project documentation
-├── 🖼️ data_model.png                   # Visual representation of the data model
-│
-└── 📂 Data Files/
-    ├── dim_date.csv                   # Dimension table for date-related data
-    ├── dim_hotels.csv                 # Dimension table for hotel information
-    ├── dim_rooms.csv                  # Dimension table for room details
-    ├── fact_aggregated_bookings.csv  # Fact table containing summarized bookings
-    └── fact_bookings.csv             # Fact table with individual booking records
 
